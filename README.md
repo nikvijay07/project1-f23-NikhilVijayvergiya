@@ -1,1 +1,2 @@
-# project1-f23
+# Midterm Project — Pokémon Info Visualizer
+
