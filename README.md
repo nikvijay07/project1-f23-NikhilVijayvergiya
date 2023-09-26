@@ -22,9 +22,8 @@ In this project, you'll be creating a frontend that graphically displays Pokémo
 ## Project Specifications
 **What the end result should look like:**
 
-<img width="400" alt="Screenshot 2023-09-04 at 9 03 32 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/project1-f23/assets/8647920/c62dfea1-ad58-44d5-8fdc-9c2f92a66824">
-<img width="400" alt="Screenshot 2023-09-04 at 9 04 04 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/project1-f23/assets/8647920/a6ba8fe5-758a-4825-902e-eb44c39e8128">
-
+<img width="500" alt="Screenshot 2023-09-26 at 5 41 02 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/project1-f23/assets/8647920/e32ac85b-18f0-424d-bccb-a369b55e12f2">
+<img width="500" alt="Screenshot 2023-09-26 at 5 41 09 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/project1-f23/assets/8647920/46dc87f0-400f-4e3d-bcf9-557b58befd62">
 
 ### General Guidelines
 You should try to follow the mockups as closely as possible (including the alignments). The Figma designs can be found [here](https://www.figma.com/file/fQMSS7UqlWSY8M4uadlboM/Bits-of-Good-F23-Project-1?type=design&node-id=0%3A1&mode=design&t=94SJ06eCzcBAOSip-1).
@@ -35,14 +34,14 @@ This project is designed to replicate real Bits of Good developer work. Typicall
 You will be pinging the PokeAPI using `fetch()`. Refer to the [PokeAPI docs](https://pokeapi.co/docs/v2#pokemon) for more details about endpoints and JSON response formats. You can also view your requests at https://pokeapi.co/.
 
 ### Arrow Buttons
-![Screenshot 2023-09-04 at 9 08 05 PM](https://github.com/BoG-Dev-Bootcamp-F23/project1-f23/assets/8647920/b35d5265-dfdd-4524-a416-521e02ce8668)
+<img width="324" alt="Screenshot 2023-09-26 at 5 41 48 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/project1-f23/assets/8647920/45f00173-3fac-4ac8-bf4c-e3cffd00c92f">
 
 These buttons control the ID number of the Pokémon you are currently displaying. Whenever a user clicks on these buttons, the ID number should be incremented/decremented, and the other components should be updated accordingly (to achive this, you'd want to create an HTTP request every time the buttons are clicked to fetch the data for the next Pokémon).
 
 Note: be careful about querying an id number that doesn't exist (e.g. 0).
 
 ### Pokémon Identifiers (Image, Name, Types)
-![Screenshot 2023-09-04 at 9 12 31 PM](https://github.com/BoG-Dev-Bootcamp-F23/project1-f23/assets/8647920/a1ff09fb-3087-4163-a22f-655f92c20d87)
+<img width="264" alt="Screenshot 2023-09-26 at 5 42 00 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/project1-f23/assets/8647920/54923f99-0eef-4f13-a26d-cd3df259be06">
 
 These should update automatically as a user clicks on the arrow buttons. All of the necessary data is available in the response to the HTTP request.
 
@@ -50,10 +49,10 @@ These should update automatically as a user clicks on the arrow buttons. All of 
 #### Pokémon Types
 For however many types a Pokémon has, display all of them horizontally. Each type should correspond with a different color. The [official hex colors](https://www.epidemicjohto.com/t882-type-colors-hex-colors) for each type are:
 
-![Screenshot 2023-09-04 at 9 22 08 PM](https://github.com/BoG-Dev-Bootcamp-F23/project1-f23/assets/8647920/4ad443da-2976-490f-8733-1f4904a3b94b)
+<img width="153" alt="Screenshot 2023-09-26 at 5 42 21 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/project1-f23/assets/8647920/27cd1982-094d-42d4-88f7-28f99e4598f9">
 
 ### Info/Moves Buttons
-![Screenshot 2023-09-04 at 9 23 27 PM](https://github.com/BoG-Dev-Bootcamp-F23/project1-f23/assets/8647920/37dd9877-a8b6-49c3-b75e-db70a7e0c3c6)
+<img width="374" alt="Screenshot 2023-09-26 at 5 42 39 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/project1-f23/assets/8647920/061ff1b1-82eb-4af9-9909-eeef3835a578">
 
 The color of the buttons should differ based on whichever one is currently active (i.e. if the info is showing, then the info button should be green, etc.). Clicking each button should change whether the info or moves button is showing. 
 
@@ -61,11 +60,11 @@ The selected setting should remain the same when the user switches between Poké
 
 ### Stats Panel
 #### Info
-![Screenshot 2023-09-04 at 9 26 15 PM](https://github.com/BoG-Dev-Bootcamp-F23/project1-f23/assets/8647920/9f88fddd-6341-455f-acc1-f791941e7948)
+<img width="269" alt="Screenshot 2023-09-26 at 5 42 56 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/project1-f23/assets/8647920/24a2cd97-332c-493d-ab21-afa6e6e1f25c">
 
 This panel should change accordingly as the user switches between Pokémon. Make sure the units are being displayed correctly — for example, the height stat is returned as an integer from the API but the units are in 0.1m.
 
 #### Moves
-![Screenshot 2023-09-04 at 9 28 25 PM](https://github.com/BoG-Dev-Bootcamp-F23/project1-f23/assets/8647920/9055c178-e05d-4e62-98e8-287f4ca31018)
+<img width="270" alt="Screenshot 2023-09-26 at 5 43 05 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/project1-f23/assets/8647920/3dc9263e-0d10-4e9d-9f54-06f3ab90819a">
 
 Like the info panel, the moves should change accordingly as the user switches between Pokémon. This panel should simply list the names of all the Pokémon's moves.
