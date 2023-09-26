@@ -11,7 +11,7 @@ In this project, you'll be creating a frontend that graphically displays Pokémo
 # Submission Instructions
 - Send the link to the repo containing your code in the #gt-bootcamp-dev Slack channel (there will be a thread for this later)
 - Create a 0.5-3 minute video walkthrough of your project (include the video link in the README of your project repo)
-- **Due Date:** 10-3-2023
+- **Due Date:** 10-5-2023
 
 ## Requirements
 - Must use HTML, CSS, and JS
