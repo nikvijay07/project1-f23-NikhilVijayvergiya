@@ -6,33 +6,140 @@
 .horizontal-layout {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .left-vertical {
     display: flex;
     flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.right-vertical {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 10%;
 }
 
-.image-background {
-    background-color: antiquewhite;
-    border-width: 1px;
-    border-radius: 5px;
+.pokeImage {
+    border-width: 2px;
     border-style: solid;
-    margin: 10px;
+    /* margin: 10px; */
+    width: 100%;
+    height: 100%;    
 }
 
 .pokemonName {
-    border-radius: 5px;
-    border-width: 2px;
+    border-radius: 10px;
+    border-width: 1px;
     border-color: black;
-    background-color: lightgray;
-    margin: 10px;
-    padding: 20px;
+    border-style: solid;
+    /* margin: 20px; */
+    background-color: lightgrey;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
-    font-size: larger;
+    font-size: xx-large;
+    align-items: center;
+
 }
 
 .button-bar {
     display: flex;
     flex-direction: row;
+    /* margin-left: 40px; */
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.button-bar-right {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 10%;
+}
+.left { 
+    padding-top: 10px;
+    font-size: xx-large;
+    padding-bottom: 10px ;
+    margin-right: 5%;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 5%;
+    border-style: none;
+    border-radius: 15px;
+
+}
+
+.left:hover {
+    background-color: lightyellow;
+}
+.right{ 
+    padding-top: 10px;
+    font-size: xx-large;
+    padding-bottom: 10px ;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.right:hover {
+    background-color: lightyellow;
+}
+
+.infoText {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+.statsList {
+    background-color: lightgray;
+    list-style-type: none;
+    width: 300px;
+    height: 430px;
+    font-size: x-large;
+    padding-top: 5%;
+    margin-top: 2%;
+}
+.Info {
+    border-style: none;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: x-large;
+
+
+}
+.Moves {
+    border-style: none;
+    border-radius: 10px;
+    padding-top: 20px;
+    font-size: x-large;
+    padding-bottom: 20px ;
+    margin-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.Info:focus {
+    background-color: lightgreen;
+}
+
+.Moves:focus {
+    background-color: lightgreen;
+}
+
+.warning {
+    text-align: center;
 }
