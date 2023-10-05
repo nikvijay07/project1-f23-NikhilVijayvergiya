@@ -111,7 +111,7 @@ async function fetchData() {
         let c = typeColor[typeMap[i]];
         typeHTML += `\n<li style="background-color: #${c}; 
         width: 80px; height: 25px; border-radius: 5px; font-family: Inter, sans-serif;
-        text-align: center; line-height: 25px"> ${typeMap[i]} </li>`
+        text-align: center; font-weight: 200; line-height: 25px"> ${typeMap[i]} </li>`
     }
     
     typeHTML += `\n <ul>`;
