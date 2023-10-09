@@ -1,4 +1,4 @@
-let index = 20;
+let index = 1;
 
 let BASE_URL = `https://pokeapi.co/api/v2/pokemon/${index}/`;
 
@@ -210,6 +210,9 @@ leftButton.addEventListener("click", () => {
 });
 
 rightButton.addEventListener("click", () => {
+    if (index === 1008) {
+        index = 0;
+    }
     index += 1;
     BASE_URL = `https://pokeapi.co/api/v2/pokemon/${index}/`;
     if (document.getElementsByClassName("warning0")[0] != null) {

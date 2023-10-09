@@ -68,3 +68,4 @@ This panel should change accordingly as the user switches between Pokémon. Make
 <img width="270" alt="Screenshot 2023-09-26 at 5 43 05 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/project1-f23/assets/8647920/3dc9263e-0d10-4e9d-9f54-06f3ab90819a">
 
 Like the info panel, the moves should change accordingly as the user switches between Pokémon. This panel should simply list the names of all the Pokémon's moves.
+Project Walkthrough Video Link: https://drive.google.com/file/d/1CkPXOGuI2xNel0-rfw6MfzCK4ZqhEMRX/view?usp=sharing
